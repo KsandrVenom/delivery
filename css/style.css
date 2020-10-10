@@ -36,7 +36,9 @@ body {
 }
 
 .input-search {
+  width: 300px;
   background-image: url(../img/search.svg);
+  margin-left: auto;
 }
 
 .buttons {
@@ -105,7 +107,6 @@ body {
 .section-heading {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-bottom: 44px;
 }
 
@@ -116,6 +117,7 @@ body {
   line-height: 42px;
   color: #000000;
   margin: 0;
+  margin-right: 20px;
 }
 
 .cards {
